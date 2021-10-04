@@ -1,14 +1,6 @@
-## FrontEnd Coding Test Template
-안녕하세요,  
-Tradir.io에 지원해 주셔서 감사합니다.🙏
-
-Tradir.io 주니어 프론트엔드 개발자 코딩 테스트 기본 템플릿입니다.  
-해당 repository를 클론 하셔서 아래 명시된 항목들만 완성해 주시면 됩니다.  
-과제에만 집중하실 수 있게 기본적인 세팅은 미리 되어있습니다.
-
 ### 📣 &nbsp; Instructions
 
-테이블을 만들 때 사용할 맥주 리스트🍻 API 입니다 ➡️ &nbsp; https://api.punkapi.com/v2/beers
+- 맥주 리스트🍻 API 사용 ➡️ &nbsp; https://api.punkapi.com/v2/beers
 
 #### ✨ &nbsp; Styling
 
