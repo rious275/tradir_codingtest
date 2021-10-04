@@ -1,13 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import styled from 'styled-components';
 import { useHistory } from 'react-router-dom'
 
 const Home = () => {
   const history = useHistory();
-
-  useEffect(() => {
-    history.location.pathname === '/' && history.push('/home')
-  }, [])
 
   const pushBeerList = () => {
     history.push('/beerlist')
@@ -17,7 +13,7 @@ const Home = () => {
     <HomeWrap>
       <BtnContainer onClick={pushBeerList}>
         <i class="fas fa-beer fa-6x"></i>
-        <p>맥주 리스트 보러가기</p>
+        <h2>맥주 리스트 보러가기</h2>
       </BtnContainer>
     </HomeWrap>
   )
@@ -44,6 +40,8 @@ const BtnContainer = styled.button`
 
   &:hover {
     cursor: pointer;
+    transform: scale(1.1);
+    transition: .5s;
   }
 
   p {

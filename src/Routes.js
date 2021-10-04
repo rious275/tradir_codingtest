@@ -2,7 +2,8 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Route,
-  Switch
+  Switch,
+  Redirect
 } from "react-router-dom";
 
 import Home from "./Pages/Home";
@@ -14,7 +15,7 @@ const Routes = () => {
   return (
     <Router>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Redirect exact path="/" to="/home" />
           <Route exact path="/home" component={Home} />
           <Route exact path="/beerlist" component={BeerList} />
         </Switch>
